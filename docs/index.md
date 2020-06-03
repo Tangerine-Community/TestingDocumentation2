@@ -1,4 +1,4 @@
-# Tangerine Documentation
+# Home
 
 Welcome to the Tangerine Documentation site. This is an MDWiki hosted on Github Pages. Find the source for this in the [Tangerine docs folder](https://github.com/Tangerine-Community/Tangerine/tree/master/docs) on Github.
 
@@ -7,7 +7,3 @@ Welcome to the Tangerine Documentation site. This is an MDWiki hosted on Github 
 - [System Administrator Guide](system-administrator/README.md)
 - [Developer Guide](developer/README.md)
 - [User Guide](user-guide/README.md)
-
-hello world 12345
-
-Last update: {{ git_revision_date_localized }}

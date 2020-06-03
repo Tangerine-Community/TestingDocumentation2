@@ -1,14 +1,23 @@
 site_name: Tangerine Documentation
-repo_url: https://github.com/Tangerine-Community/TestingDocumentation
+repo_url: https://github.com/Tangerine-Community/TestingDocumentation2
 site_author: Tangerine Community
 theme:
-  name: readthedocs
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - JavaScript
-    - TypeScript
+  name: material
+  language: en
+  features:
+    - tabs
+  logo: assets/tangerine-logo.svg
+extra_css:
+  - stylesheets/extra.css
 plugins:
   - search
+  - git-revision-date-localized
+  - awesome-pages
+  - minify:
+      minify_html: true
 markdown_extensions:
-  - smarty
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
