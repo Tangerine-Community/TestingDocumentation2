@@ -19,3 +19,5 @@ jobs:
 
       - name: Build and Deploy Documentation using MkDocs
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
