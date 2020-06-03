@@ -1,0 +1,14 @@
+site_name: Tangerine Documentation
+repo_url: https://github.com/Tangerine-Community/TestingDocumentation
+site_author: Tangerine Community
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - JavaScript
+    - TypeScript
+plugins:
+  - search
+markdown_extensions:
+  - smarty
